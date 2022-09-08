@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <header>
+         <div class="bg-green-500 h-10 text-center  sm:block hidden  "> <span class="pt-1 ">We're open and available for takeaway & delivery. Order Now</span></div>
+
+         <nav class="sm:pt-12 flex justify-between pt-5 lg:flex lg:justify-around ">
+            <div class="ml-2"><img src="./5e865e09d8efa341ab76b5e7_Logo.svg" alt="" class="w-10" srcset=""></div>
+
+            <div class="sm:block hidden " id="menu-container">
+            <ul class="flex sm:space-x-6 flex-col sm:flex-row sm:mt-0 mt-11 sm:mb-0 mb-16   w-56 sm:bg-white bg-emerald-400  " id="ul">
+              <li>Home</li>
+              <li>Order</li>
+              <li>Contact</li>
+              <li>Company</li>
+            </ul>
+           
+          </div>
+          <div class="sm:hidden visible px-8 pt-3" >
+           <img src="/menu.svg" id="hamburger-menu-svg" class="w-8" alt="">
+          </div>
+         </nav>
+    </header>
+
+    
+ 
+    <script src="./app.js"></script>
+</body>
+</html>
